@@ -1,0 +1,11 @@
+.cardWrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.cardImage {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 0.3em;
+}

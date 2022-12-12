@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "image": "../../public/img.jpg",
+    "name": "hh",
+    "category": ["Alle", "Languages"],
+    "content": "..."
+  },
+  {
+    "id": "2",
+    "image": "../../public/img.jpg",
+    "name": "ss",
+    "category": ["Alle", "Languages"],
+    "content": "..."
+  },
+  {
+    "id": "3",
+    "image": "../../public/img.jpg",
+    "name": "ee",
+    "category": ["Alle", "Languages"],
+    "content": "..."
+  },
+
+  {
+    "id": "4",
+    "image": "../../public/img.jpg",
+    "name": "vv",
+    "category": ["Alle", "Frameworks"],
+    "content": "..."
+  },
+  {
+    "id": "5",
+    "image": "../../public/img.jpg",
+    "name": "cc",
+    "category": ["Alle", "Database"],
+    "content": "..."
+  }
+]

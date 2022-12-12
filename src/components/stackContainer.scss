@@ -1,0 +1,48 @@
+.stackContainer {
+  display: flex;
+  flex-direction: column;
+  width: min(80vw, 1000px);
+  margin: 0 auto;
+  gap: 1em;
+}
+
+.stackPillsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.stackItemsContainer {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 1fr));
+  gap: 2vw;
+}
+
+.containerTitle {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  position: relative;
+  cursor: pointer;
+  color: gray;
+  transition: color 0.2s ease;
+  margin: 0;
+  margin-top: 2em;
+
+  &:hover {
+    color: purple;
+  }
+
+  &:hover:before {
+    opacity: 1;
+  }
+
+  &:before {
+    content: "#";
+    position: absolute;
+    left: -1em;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+}

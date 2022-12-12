@@ -1,0 +1,19 @@
+.pillWrapper {
+  border-radius: 999em;
+  font-size: 0.7rem;
+  border: 1px solid gray;
+  color: gray;
+  padding: 0.5em 1em;
+  transition: color 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+
+  &:hover {
+    background: gray;
+    color: white;
+  }
+}
+
+.active {
+  background: gray;
+  color: white;
+}
